@@ -82,6 +82,7 @@ body {
 
 .menu a:focus{
     color: orangered !important;
+    outline: none;
 }
 
 .active-nav-menu {

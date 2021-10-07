@@ -12,3 +12,7 @@ function ChangeImage2(event) {
 function l_image(a) {
 	document.example_img.src = a;
 }
+window.onload=function(){
+	document.getElementById('linkId').focus();
+	document.getElementById('linkId').click();
+}
