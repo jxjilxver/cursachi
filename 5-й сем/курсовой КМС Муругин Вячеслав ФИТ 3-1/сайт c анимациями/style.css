@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(./img/background.png) center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wow:first-child {
+    visibility: hidden;
+}
+
+#flashContent {
+    width: 100%;
+    height: 100%;
+}
+
+.interacctive-schema {
+    height: 70% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.nav1 {
+	color:  white;
+	background-color: #262426;
+    width: 100%;
+    height: 45px;
+	display: flex;
+    align-items: center;
+}
+
+.first {
+	margin-right: 50px;
+	border-bottom: none !important;
+	
+}
+
+.nav {
+    background-color: #262426;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.menu a:hover {
+    color: #F4F2F4;
+}
+
+.menu a:focus{
+    color: orangered !important;
+    outline: none;
+}
+
+.active-nav-menu {
+    color: OrangeRed !important;
+}
+
+.logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo span {
+    color: #90caf9;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+}
+.information-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 50px;
+}
+.js-main {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+.main-page-title {
+    font-size: 50px;
+}
+
+.main-page-description {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    color: #fff;
+    background-color: #262426;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.theory-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.formula {
+    width: 200px;
+	object-fit: contain;
+    margin: 20px auto;
+}
+
+.clickable
+{
+	transition:.5s;
+	cursor:pointer;
+	color:OrangeRed;
+}
+
+.clickable:hover
+{
+	color:Aqua;
+	transition:.5s;
+}
+
+.biggerFormula:hover {
+	width: 650px;
+	transition: 1.5s;
+}
+.biggerFormula2:hover {
+	
+	width: 300px;
+	transition: 1s;
+}
+
+.none
+{
+    display:none;
+margin:auto;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+
+.instalation-schema {
+    max-width: 550px;
+	max-height:600px;
+}
+
+.title {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.title p {
+    margin-top: 20px;
+}
+
+.btn {
+    border: 1px solid OrangeRed;
+    color: OrangeRed;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: OrangeRed;
+    border-radius: 20px;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+
+
+.information-text {
+    display: flex;
+    justify-content: center;
+}
+
+    .information-text img {
+        display: flex;
+        margin-right: 30px;
+        max-width: 500px;
+    }
+
+
+.contact-inf-title {
+    color: #ccc;
+}
+
+
+
