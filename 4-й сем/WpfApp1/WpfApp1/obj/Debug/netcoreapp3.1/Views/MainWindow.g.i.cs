@@ -9,11 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Microsoft.Xaml.Behaviors;
-using Microsoft.Xaml.Behaviors.Core;
-using Microsoft.Xaml.Behaviors.Input;
-using Microsoft.Xaml.Behaviors.Layout;
-using Microsoft.Xaml.Behaviors.Media;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -66,7 +61,7 @@ namespace WpfApp1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApp1;component/views/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApp1;V1.0.0.0;component/views/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
